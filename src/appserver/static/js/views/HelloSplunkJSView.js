@@ -4,8 +4,8 @@ define([
     "splunkjs/mvc",
     "jquery",
     "splunkjs/mvc/simplesplunkview",
-    'text!../app/hello-splunkjs/js/templates/CHANGEMEView.html', // CHANGE_THIS: Modify the path to use a template
-    "css!../app/hello-splunkjs/css/CHANGEMEView.css" // CHANGE_THIS: Modify the path to use a template
+    'text!../app/hello-splunkjs/js/templates/HelloSplunkJSView.html',
+    "css!../app/hello-splunkjs/css/HelloSplunkJSView.css"
 ], function(
     _,
     Backbone,
@@ -15,8 +15,8 @@ define([
     Template
 ){
     // Define the custom view class
-    var CHANGEMEView = SimpleSplunkView.extend({ // CHANGE_THIS
-        className: "CHANGEMEView", // CHANGE_THIS
+    var HelloSplunkJSView = SimpleSplunkView.extend({
+        className: "HelloSplunkJSView",
         
         defaults: {
         	
@@ -37,5 +37,5 @@ define([
         }
     });
     
-    return CHANGEMEView; // CHANGE_THIS
+    return HelloSplunkJSView;
 });
