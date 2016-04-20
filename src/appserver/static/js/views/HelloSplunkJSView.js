@@ -1,3 +1,10 @@
+require.config({
+    paths: {
+    	text: "../app/hello-splunkjs/contrib/text"
+    }
+});
+
+
 define([
     "underscore",
     "backbone",
