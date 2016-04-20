@@ -4,8 +4,8 @@ define([
     "splunkjs/mvc",
     "jquery",
     "splunkjs/mvc/simplesplunkview",
-    'text!../app/CHANGEME/js/templates/CHANGEMEView.html', // CHANGE_THIS: Modify the path to use a template
-    "css!../app/CHANGEME/css/CHANGEMEView.css" // CHANGE_THIS: Modify the path to use a template
+    'text!../app/hello-splunkjs/js/templates/CHANGEMEView.html', // CHANGE_THIS: Modify the path to use a template
+    "css!../app/hello-splunkjs/css/CHANGEMEView.css" // CHANGE_THIS: Modify the path to use a template
 ], function(
     _,
     Backbone,
