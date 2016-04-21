@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<form script="hellosplunkjs.js" >
+	<label>Hello SplunkJS</label>
+	
+	<row>
+		<html>
+			<div id="placeholder_for_view">This placeholder should be replaced with the content of the view</div>
+		</html>
+	</row>
+</form>
