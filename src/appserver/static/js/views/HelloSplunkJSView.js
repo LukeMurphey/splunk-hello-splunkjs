@@ -11,6 +11,7 @@ define([
     "splunkjs/mvc",
     "jquery",
     "splunkjs/mvc/simplesplunkview",
+    "splunkjs/mvc/searchmanager",
     'text!../app/hello-splunkjs/js/templates/HelloSplunkJSView.html',
     "css!../app/hello-splunkjs/css/HelloSplunkJSView.css"
 ], function(
@@ -19,6 +20,7 @@ define([
     mvc,
     $,
     SimpleSplunkView,
+    SearchManager,
     Template
 ){
     // Define the custom view class
