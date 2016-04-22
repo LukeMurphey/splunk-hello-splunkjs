@@ -25,6 +25,10 @@ define([
     var HelloSplunkJSView = SimpleSplunkView.extend({
         className: "HelloSplunkJSView",
         
+        events: {
+        	"click .get-most-recent-event" : "doGetMostRecentEvent"
+        },
+        
         defaults: {
         	
         },
@@ -33,6 +37,10 @@ define([
         	this.options = _.extend({}, this.defaults, this.options);
         	
         	//this.some_option = this.options.some_option;
+        },
+        
+        doGetMostRecentEvent: function(){ 
+        	
         },
         
         render: function () {
